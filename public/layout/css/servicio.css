@@ -1,0 +1,256 @@
+*{
+	font-family: raleway, sans-serif;
+}
+nav{
+	background-color: #3d4462;
+}
+
+.menu-active a:hover{
+	color: #9ec66f;
+}
+
+.brand-logo img{
+	width: 50%;
+	margin-left: 15%;
+}
+
+.nav-servicio{
+	background-color: #a3d9dd;
+	height: 80px;
+}
+
+.eco-servicio{
+	background-color: #d1d1d1;
+}
+
+.eco-servicio a:hover {
+	background-color: #8bc34a;
+}
+
+.empresa-servicio{
+	background-image: url(../../img/fondo-u31206-fr.png);
+}
+
+.form-servicio{
+	background-color: #e0e0e0;
+}
+
+.form-servicio input, .form-servicio textarea{
+	border-width: 2px;
+}
+
+.img_off{
+	display: none;
+}
+
+.img_on{
+	display: block;
+}
+
+.serv_prod-servicio img{
+	width: 70%;
+	margin-bottom: 20%;
+}
+
+.serv_prod-servicio span{
+	color: #3bce4c;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.modal-content img{
+	width: 50%;
+}
+.modal-footer span{
+	background-color: grey;
+	font-size: 150%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#servicio-text{
+	font-size: 30px;
+	font-weight: bolder;
+}
+#marca {
+    font-size: 200%;
+    line-height: 48px;
+    font-weight: 300;
+}
+#slogan {
+    font-family: Raleway, sans-serif;
+    color: #a3d9dd;
+    font-size: 200%;
+    margin-top: 0%; font-weight: 900;
+}
+
+@media (min-width: 800px){
+	.blockservicios {
+		width: 25%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+	.nav-servicio{
+		background-color: #a3d9dd;
+		height: 70px;
+	}
+	.brand-logo img{
+		width: 60%;
+		margin-left: 15%;
+	}
+	.eco-servicio img{
+		width: 40%;
+		margin-left: 25%;
+	}
+	.eco-servicio a{
+		float: inherit;
+		margin-top: -15%;
+		margin-left: 5%;
+	}
+	.empresa-servicio img{
+		margin-left: 40%;
+		width: 20%;
+	}
+	.empresa-servicio p{
+		text-align: justify;
+		color: #5c6073;
+		font-size: 200%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.mvv-servicio span{
+		font-size: 35px;
+		margin-left: 10%;
+	}
+	.mvv-servicio img{
+		width: 50%;
+		margin-left: 5%;
+    }
+    #privacidad {
+		float: inherit;
+		margin-top: 0%;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        color: #354053;
+        font-size: 2em;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.blockservicios {
+		width: 30%;
+		margin-left: 15%;
+		margin-bottom: 5%;
+	}
+	.nav-servicio{
+		background-color: #a3d9dd;
+		height: 70px;
+	}
+	.brand-logo img{
+		width: 80%;
+		margin-left: 15%;
+	}
+	.eco-servicio img{
+		width: 50%;
+		margin-left: 20%;
+	}
+	.eco-servicio a{
+		float: inherit;
+		margin-left: 40%;
+	}
+	.empresa-servicio img{
+		margin-left: 35%;
+		width: 30%;
+	}
+	.empresa-servicio p{
+		text-align: justify;
+		color: #5c6073;
+		font-size: 200%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.mvv-servicio span{
+		font-size: 40px;
+		margin-left: 5%;
+	}
+	.mvv-servicio img{
+		width: 50%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 599px) {
+	.blockservicios {
+		width: 50%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
+	.nav-servicio{
+		background-color: #a3d9dd;
+		height: 60px;
+	}
+	.brand-logo img{
+		width: 100%;
+		margin-left: 15%;
+	}
+	.eco-servicio img{
+		width: 80%;
+		margin-left: 20%;
+	}
+	.eco-servicio a{
+		float: inherit;
+		margin-left: 30%;
+	}
+	.empresa-servicio img{
+		margin-left: 30%;
+		width: 40%;
+	}
+	.empresa-servicio p{
+		text-align: justify;
+		color: #5c6073;
+		font-size: 200%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.mvv-servicio span{
+		font-size: 50px;
+		margin-left: 35%;
+		margin-bottom: 10%;
+	}
+	.mvv-servicio img{
+		width: 40%;
+		margin-left: 35%;
+		margin-bottom: 5%;
+	}
+	#servicio-text{
+		font-size: 15px;
+		font-weight: bolder;
+	}
+}
+
+@media (max-width: 466px) {
+	#marca {
+        font-size: 160%;
+    }
+    #slogan {
+        font-size: 160%;
+    }
+}
+
+@media (max-width: 400px) {
+	#marca {
+        font-size: 140%;
+    }
+    #slogan {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 380px) {
+	#marca {
+        font-size: 120%;
+    }
+    #slogan {
+        font-size: 120%;
+    }
+}
