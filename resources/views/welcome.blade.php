@@ -10,6 +10,17 @@
     </div>
     </div>
 
+    <div class="eco-servicio center">
+        <br><br>
+        <span style="font-size: 200%; color: #53576b; font-weight: bold">Precio del combustible</span><br>
+        <span style="font-size: 200%; color: #53576b; font-weight: bold">Magna: $</span>
+        <span style="font-size: 250%; color: #9ec66f; font-weight: 1000">{{ isset($fuel->magna) ? $fuel->magna : '' }}</span>
+        <br>
+        <span style="font-size: 200%; color: #53576b; font-weight: bold">Premium: $</span>
+        <span style="font-size: 250%; color: #9ec66f; font-weight: 1000">{{ isset($fuel->premium) ? $fuel->premium : '' }}</span>
+        <br><br><br>
+    </div>
+
     <div class="center">
     <br>
     <span style="font-size: 200%; color: #53576b; font-weight: bold">SERVICIOS Y PRODUCTOS</span>

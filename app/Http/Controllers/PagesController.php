@@ -7,6 +7,7 @@ use App\Mail\InvoiceReceived;
 use App\Notice;
 use App\Product;
 use App\Service;
+use App\Fuel;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -17,9 +18,10 @@ class PagesController extends Controller
     public function welcome()
     {
         $information = Information::first();
+        $fuel = Fuel::first();
         // dd($information->slogan);
 
-        return view('welcome', compact('information'));
+        return view('welcome', compact('information', 'fuel'));
     }
 
     public function mision()

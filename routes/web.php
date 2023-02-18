@@ -29,6 +29,7 @@ Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
     Route::resource('informations', 'DashboardController');
+    Route::resource('fuel', 'FuelController');
     // Route::resource('users', 'UsersController');
 	Route::resource('products', 'ProductController');
     Route::resource('services', 'ServiceController');

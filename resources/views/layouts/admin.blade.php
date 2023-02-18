@@ -87,6 +87,9 @@
                             <i class="nav-icon icon-speedometer"></i> Sitio
                             {{-- <span class="badge badge-info">NEW</span> --}}
                         </a>
+                        <a class="nav-link" href="{{ route('fuel.index') }}">
+                             Precio Combustible
+                        </a>
                     </li>
                     <li class="nav-title">Secciones</li>
                     <li class="nav-item">
